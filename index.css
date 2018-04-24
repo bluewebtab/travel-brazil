@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Quicksand', sans-serif;
+}
+
+.main{
+   background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.7))), url(img/brazil.jpg);
+   background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(img/brazil.jpg);
+background-size:cover;
+background-position:center;
+height: 115vh;
+background-attachment:fixed;
+  
+}
+
+.navbar{
+    position:absolute;
+    float:right;
+    margin-top:2rem;
+    right:5rem;
+}
+.navbar li{
+    list-style: none;
+    color:white;
+    display:inline-block;
+    padding-left:3rem;
+    font-size: 20px;
+}
+.title h1{
+    color:white;
+    position: absolute;
+    margin-left:15rem;
+    margin-top:25rem;
+    font-size: 4rem;
+    
+   
+}
+
+.main h3{
+    color:white;
+    position:absolute;
+    margin-left: 20rem;
+    margin-top: 23rem;
+}
+
+.main h3 span{
+    display:inline-block;
+    position: relative;
+}
+
+.main h3 span:after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    border-top: 1.5px solid #fff;
+    bottom: 0%;
+    right: 5px;
+    width: 100px;
+}
+
+.brazil-info{
+    position:absolute;
+    color:white;
+    padding:0 50% 0 0;
+    margin-left:13rem;
+    margin-top: 30rem;
+}
+
+.section1{
+    height:600px;
+}
+
+.box1{
+    background:white;
+    width:50%;
+    height:100%;
+     -webkit-box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5);
+     box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5);
+    position:relative;
+    top: -60px ;
+    margin-left:35rem;
+}
+
+.smallbox1 h1{
+    position:relative;
+    float:right;
+    right:5rem;
+    padding-top:1rem;
+    font-size:2rem;
+}
+
+.smallbox1 p{
+    position:relative;
+    float:right;
+    padding-left:50%;
+    padding-top:1rem;
+    line-height: 2rem;
+}
+
+.smallbox2{
+    background: url(img/rio.jpg) no-repeat center center;
+    width:47%;
+    height:45vh;
+    position:absolute;
+}
+
+
+.box2{
+   background:url(img/rio-man.jpg)no-repeat center ;
+   position:relative;
+   top:-25rem;
+   margin-left:12rem;
+   width:50%;
+   height:90%; 
+   -webkit-box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5); 
+   box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5);
+}
+
+.section2{
+margin-top:15rem;
+background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.7))), url(img/daylight.jpg);
+
+background-size:cover;
+background-position:center;
+height:80vh; 
+}
+
+.section2 h1{
+    position:absolute;
+   margin-left:42%;
+    margin-top:10rem;
+    font-size:3rem;
+    color:#f4f4f4;
+}
+
+.p1{
+    color:white;
+    position:absolute;
+    margin-top:15rem;
+   width:25%;
+    left:20rem;
+    text-align:center;
+}
+
+.p2{
+    color:white;
+    position:absolute;
+    margin-top:15rem;
+   width:25%;
+    left:45rem;
+    text-align:center;
+}
+
+.section3{
+    height:600px;
+}
+
+.slide-container{
+    background: url(img/background.jpg)no-repeat center center;
+    background-size:cover;
+    height: 600px;
+    position:relative;
+}
+
+
+.active {
+  background-color: #717171;
+}
+.slides{
+  margin:0 auto;
+    width:80%;
+    height:600px;
+    background-size:contain;
+}
+
+button {
+    padding: 15px 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1.5px solid rgba(187, 187, 187, 0.03);
+    margin: 30px 0 0 20px;
+}
+
+button:hover {
+    background: rgba(183, 183, 183, 0);
+    cursor: pointer;
+   
+   
+}
+
+.btn-left {
+    position: absolute;
+    left: 9.5%;
+    top: 45%;
+}
+
+.btn-right {
+    position: absolute;
+    right: 11%;
+    top: 45%;
+}
+
+.slide-container button {
+    background: rgba(255, 255, 255, 0.1);
+    border:1px solid #fff;
+}
+
+.slide-container button:hover {
+    background: rgba(255, 255, 255, 0.99);
+   
+}
+
+.footer{
+    height:100px;
+    background:#222222;
+    
+}
+
+.footer h2{
+    position:absolute;
+    margin-top:2rem;
+    color:white;
+    font-family:sans-serif;
+    margin-left:3rem;
+}
+#social-media a{
+    color:#fff;
+}
+#social-media ul{
+    margin-top:2rem;
+    float:right;
+   
+    font-size:2rem;
+    
+}
+#social-media li{
+    display:inline-block;
+    margin-right:5rem;
+    
+}
